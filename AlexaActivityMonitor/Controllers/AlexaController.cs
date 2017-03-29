@@ -7,9 +7,9 @@ using System.Web.Http;
 
 namespace AlexaActivityMonitor.Controllers
 {
-    public class ValuesController : ApiController
+    public class AlexaController : ApiController
     {
-        // GET api/values
+        // GET api/alexa
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
